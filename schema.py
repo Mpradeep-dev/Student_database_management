@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+
 class Students_create(BaseModel):
     Reg_no:int
     Name:str
